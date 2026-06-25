@@ -21,6 +21,18 @@ directa con el equipo de desarrollo.
 - [Postman — Pruebas de API](evidencias_postman/) — Peticiones 
   GET y POST con verificación de códigos de estado.
 
+   ## Automatización (pytest)
+
+Tests automatizados en Python usando pytest, aplicados sobre la lógica de Ayama Elite:
+
+- **Parametrize**: validación de edad de halcón con análisis de valores límite (0, 1, 30, 31)
+- **Fixtures**: datos de prueba reutilizables (halcón de prueba)
+- **Fixtures con yield**: setup y teardown simulando conexión/desconexión con el receptor
+- **Mock**: simulación de señal del receptor sin depender del hardware físico
+- **Test de integración**: peticiones HTTP reales con `requests`, validando status code y estructura de respuesta
+
+Archivos: [`automation/ayama_funciones.py`](automation/ayama_funciones.py) · [`automation/test_ayama_funciones.py`](automation/test_ayama_funciones.py) · [evidencia de ejecución](automation/evidencia_pytest.txt)
+
 ## Sobre el contexto
 
 Ayama Elite es una aplicación comercial real para el seguimiento 
