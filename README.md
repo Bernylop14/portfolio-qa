@@ -5,7 +5,7 @@ y sistema de hardware GPS para cetrería), basada en aproximadamente
 un año de experiencia como tester del producto en colaboración 
 directa con el equipo de desarrollo.
 
-## 📄 Documentos
+## Documentos
 
 - [Plan de Pruebas](01_Plan_de_Pruebas_Ayama_Elite.pdf) — Planificación 
   estratégica de las pruebas: objetivo, alcance, estrategia, recursos y riesgos.
@@ -13,7 +13,7 @@ directa con el equipo de desarrollo.
   Caso de prueba funcional documentado y reporte de un bug real, 
   con evidencia fotográfica.
 
-## 🖥️ Evidencias en herramientas reales
+## Evidencias en herramientas reales
 
 - [Jira — Tablero Kanban y gestión de bugs](evidencias_jira/) — 
   Proyecto real con bugs documentados y movidos a través de su 
@@ -21,7 +21,7 @@ directa con el equipo de desarrollo.
 - [Postman — Pruebas de API](evidencias_postman/) — Peticiones 
   GET y POST con verificación de códigos de estado.
 
-## 🦅 Sobre el contexto
+## Sobre el contexto
 
 Ayama Elite es una aplicación comercial real para el seguimiento 
 GPS de halcones, usada en cetrería de altanería y competición. 
