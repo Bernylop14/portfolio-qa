@@ -1,0 +1,20 @@
+============================= test session starts =============================
+collecting ... collected 10 items
+pruebas ayama/test_ayama_funciones.py::test_validar_edad_halcon[0-False] 
+pruebas ayama/test_ayama_funciones.py::test_validar_edad_halcon[1-True] 
+pruebas ayama/test_ayama_funciones.py::test_validar_edad_halcon[30-True] 
+pruebas ayama/test_ayama_funciones.py::test_validar_edad_halcon[31-False] 
+pruebas ayama/test_ayama_funciones.py::test_halcon_tiene_edad_valida 
+pruebas ayama/test_ayama_funciones.py::test_halcon_tiene_nombre 
+pruebas ayama/test_ayama_funciones.py::test_receptor_esta_conectado 
+pruebas ayama/test_ayama_funciones.py::test_señal_perdida 
+pruebas ayama/test_ayama_funciones.py::test_servidor_responde_correctamente 
+pruebas ayama/test_ayama_funciones.py::test_servidor_devuelve_datos 
+============================= 10 passed in 0.68s ==============================
+PASSED [ 10%]PASSED [ 20%]PASSED [ 30%]PASSED [ 40%]PASSED [ 50%]PASSED   [ 60%]
+🔌 Conectando con el receptor...
+PASSED [ 70%]
+🔌 Desconectando el receptor...
+PASSED         [ 80%]PASSED [ 90%]PASSED [100%]
+Process finished with exit code 0
+
