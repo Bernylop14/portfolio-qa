@@ -21,7 +21,7 @@ directa con el equipo de desarrollo.
 - [Postman — Pruebas de API](evidencias_postman/) — Peticiones 
   GET y POST con verificación de códigos de estado.
 
-   ## Automatización (pytest)
+## Automatización (pytest)
 
 Tests automatizados en Python usando pytest, aplicados sobre la lógica de Ayama Elite:
 
