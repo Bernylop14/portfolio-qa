@@ -7,6 +7,15 @@ y sistema de hardware GPS para cetrería), basada en aproximadamente
 un año de experiencia como tester del producto en colaboración 
 directa con el equipo de desarrollo.
 
+## Qué incluye
+
+- **Testing manual**: plan de pruebas, casos de prueba y reporte de bugs
+- **Gestión de bugs (Jira)**: ciclo de vida real de incidencias, de apertura a cierre
+- **API testing (Postman)**: peticiones y verificación de respuestas
+- **Automatización (pytest)**: tests unitarios, fixtures, mocks y tests de integración
+- **Automatización web (Playwright)**: tests end-to-end de UI sobre un entorno real de navegador
+- **CI/CD (GitHub Actions)**: los tests se ejecutan automáticamente en cada cambio subido al repositorio (ver insignia arriba)
+
 ## Documentos
 
 - [Plan de Pruebas](01_Plan_de_Pruebas_Ayama_Elite.pdf) — Planificación 
@@ -34,6 +43,18 @@ Tests automatizados en Python usando pytest, aplicados sobre la lógica de Ayama
 - **Test de integración**: peticiones HTTP reales con `requests`, validando status code y estructura de respuesta
 
 Archivos: [`automation/ayama_funciones.py`](automation/ayama_funciones.py) · [`automation/test_ayama_funciones.py`](automation/test_ayama_funciones.py) · [evidencia de ejecución](automation/evidencia_pytest.txt)
+
+## Automatización web (Playwright)
+
+Tests end-to-end sobre una aplicación web real (entorno de práctica público), 
+simulando el comportamiento de un usuario en el navegador:
+
+- **Interacción real con la UI**: relleno de formularios y clics simulados
+- **Parametrize aplicado a UI**: un mismo test cubre varios escenarios de login (usuario válido, usuario bloqueado, contraseña incorrecta)
+- **`expect()` de Playwright**: aserciones que esperan automáticamente a que la página reaccione, evitando tests inestables (*flaky*)
+- **Cobertura de camino feliz y camino de error**: login exitoso y mensajes de error visibles ante credenciales inválidas
+
+Archivos: [`automation/test_web.py`](automation/test_web.py)
 
 ## Sobre el contexto
 
