@@ -1,5 +1,7 @@
 # Portfolio QA — Bernardo López
 
+[![Tests](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml/badge.svg)](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml)
+
 Documentación de testing real sobre **Ayama Elite** (aplicación móvil 
 y sistema de hardware GPS para cetrería), basada en aproximadamente 
 un año de experiencia como tester del producto en colaboración 
