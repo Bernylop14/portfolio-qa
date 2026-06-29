@@ -14,7 +14,7 @@ directa con el equipo de desarrollo.
 - **API testing (Postman)**: peticiones y verificación de respuestas
 - **Automatización (pytest)**: tests unitarios, fixtures, mocks y tests de integración
 - **Automatización web (Playwright)**: tests end-to-end de UI sobre un entorno real de navegador
-- **CI/CD (GitHub Actions)**: los tests se ejecutan automáticamente en cada cambio subido al repositorio (ver insignia arriba)
+- **CI/CD (GitHub Actions)**: pipeline que instala dependencias, descarga los navegadores de Playwright y ejecuta automáticamente toda la suite (pytest + Playwright) en cada cambio subido al repositorio (ver insignia arriba)
 
 ## Documentos
 
@@ -55,6 +55,7 @@ simulando el comportamiento de un usuario en el navegador:
 - **Cobertura de camino feliz y camino de error**: login exitoso y mensajes de error visibles ante credenciales inválidas
 
 Archivos: [`automation/test_web.py`](automation/test_web.py)
+> Este conjunto de tests se ejecuta tanto en local como dentro del pipeline de CI (GitHub Actions), en una máquina limpia que descarga los navegadores de Playwright en cada ejecución (ver `.github/workflows/test.yml`).
 
 ## Sobre el contexto
 
