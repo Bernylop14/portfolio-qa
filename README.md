@@ -46,15 +46,19 @@ Archivos: [`automation/ayama_funciones.py`](automation/ayama_funciones.py) · [`
 
 ## Automatización web (Playwright)
 
-Tests end-to-end sobre una aplicación web real (entorno de práctica público), 
-simulando el comportamiento de un usuario en el navegador:
+### SauceDemo Checkout Flow — Automatización E2E con Playwright
 
-- **Interacción real con la UI**: relleno de formularios y clics simulados
-- **Parametrize aplicado a UI**: un mismo test cubre varios escenarios de login (usuario válido, usuario bloqueado, contraseña incorrecta)
-- **`expect()` de Playwright**: aserciones que esperan automáticamente a que la página reaccione, evitando tests inestables (*flaky*)
-- **Cobertura de camino feliz y camino de error**: login exitoso y mensajes de error visibles ante credenciales inválidas
+Suite end-to-end sobre una aplicación web real (entorno de práctica público), 
+cubriendo el recorrido completo de un usuario, no solo una pantalla suelta:
+
+- **Login**: camino feliz y camino de error (usuario válido, usuario bloqueado, contraseña incorrecta), con `parametrize`
+- **Carrito**: añadir un producto y verificar tanto el contador del carrito como su contenido
+- **Checkout completo**: relleno de formulario de envío y verificación del mensaje de confirmación del pedido
+- **Logout**: cierre de sesión y verificación de vuelta a la pantalla de login
+- **`expect()` de Playwright**: aserciones (y acciones) con auto-espera integrada, evitando tests inestables (*flaky*) sin necesidad de esperas explícitas manuales
 
 Archivos: [`automation/test_web.py`](automation/test_web.py)
+
 > Este conjunto de tests se ejecuta tanto en local como dentro del pipeline de CI (GitHub Actions), en una máquina limpia que descarga los navegadores de Playwright en cada ejecución (ver `.github/workflows/test.yml`).
 
 ## Sobre el contexto
