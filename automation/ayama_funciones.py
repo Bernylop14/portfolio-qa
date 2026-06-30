@@ -15,5 +15,3 @@ import requests
 def obtener_estado_servidor():
     respuesta = requests.get("https://jsonplaceholder.typicode.com/posts/1")
     return respuesta
-    return respuesta
-    return respuesta
