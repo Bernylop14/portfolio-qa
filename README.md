@@ -3,9 +3,8 @@
 [![Tests](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml/badge.svg)](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml)
 
 Documentación de testing real sobre **Ayama Elite** (aplicación móvil 
-y sistema de hardware GPS para cetrería), basada en aproximadamente 
-un año de experiencia como tester del producto en colaboración 
-directa con el equipo de desarrollo.
+y sistema de hardware GPS para cetrería), fruto de mi colaboración 
+directa con el equipo de desarrollo del producto.
 
 ## Qué incluye
 
@@ -44,14 +43,15 @@ Tests automatizados en Python usando pytest, aplicados sobre la lógica de Ayama
 
 Archivos: [`automation/ayama_funciones.py`](automation/ayama_funciones.py) · [`automation/test_ayama_funciones.py`](automation/test_ayama_funciones.py) · [evidencia de ejecución](automation/evidencia_pytest.txt)
 
-## Automatización web (Playwright)
+### Automatización web (Playwright)**: tests end-to-end de UX&UI sobre un entorno real de navegador
 
 ### SauceDemo Checkout Flow — Automatización E2E con Playwright
 
 Suite end-to-end sobre una aplicación web real (entorno de práctica público), 
 cubriendo el recorrido completo de un usuario, no solo una pantalla suelta:
 
-- **Login**: camino feliz y camino de error (usuario válido, usuario bloqueado, contraseña incorrecta), con `parametrize`
+- **Login**: Happy path y Unhappy path (usuario válido, usuario bloqueado, contraseña incorrecta), con `parametrize`
+- **Carrito**: añadir un producto y verificar tanto el cart badge (contador) como su contenido`
 - **Carrito**: añadir un producto y verificar tanto el contador del carrito como su contenido
 - **Checkout completo**: relleno de formulario de envío y verificación del mensaje de confirmación del pedido
 - **Logout**: cierre de sesión y verificación de vuelta a la pantalla de login
