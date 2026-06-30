@@ -2,21 +2,23 @@
 
 [![Tests](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml/badge.svg)](https://github.com/Bernylop14/portfolio-qa/actions/workflows/test.yml)
 
-Soy Bernardo López (Berny). Vengo de la cetrería de altanería, donde llevo 
-desde 2021 colaborando con **Ayama Segutel**, la empresa detrás de 
-**Ayama Elite** — aplicación móvil y sistema de hardware GPS para cetrería — 
-probando sus productos sobre el terreno, reportando fallos y proponiendo 
-mejoras junto a su equipo de desarrollo. Esos años me dieron un conocimiento 
-profundo de cómo se comporta este hardware en condiciones reales, y un 
-instinto fuerte para encontrar casos límite.
+Hola, soy Bernardo López (Berny) ¡Bienvenido a mi portfolio! Aquí encontrarás una pequeña muestra de lo que hago y de cómo me gusta trabajar. Cada proyecto que verás aquí ha supuesto un reto diferente y una oportunidad para aprender, mejorar y seguir creciendo.
 
 Decidí dar el salto a QA profesional porque la calidad de un producto me 
-importa de verdad: no me conformo con que algo "funcione más o menos", y 
+importa de verdad, no me conformo con que algo "funcione más o menos", y 
 prefiero agotar todas las opciones antes de dar un problema por imposible. 
 Trabajo de forma autónoma, intento resolver las cosas por mí mismo antes 
 de pedir ayuda, aunque cuando el equipo rema en la misma dirección, 
 trabajar codo con codo no es ningún problema. Lo que más valoro es 
 trabajar con un equipo comprometido con la calidad.
+
+Vengo de la cetrería de altanería, donde llevo 
+desde 2021 colaborando con *Ayama Segutel*, la empresa detrás de 
+*Ayama Elite* - aplicación móvil y sistema de hardware GPS para cetrería — 
+probando sus productos sobre el terreno, reportando fallos y proponiendo 
+mejoras junto a su equipo de desarrollo. Esos años me dieron un conocimiento 
+profundo de cómo se comporta este hardware en condiciones reales, y un 
+instinto fuerte para encontrar casos límite.
 
 > **Nota:** todo el código de este repositorio (Python) corresponde a mi 
 > documentación y automatización de testing. Ayama Elite, la app que pruebo, 
